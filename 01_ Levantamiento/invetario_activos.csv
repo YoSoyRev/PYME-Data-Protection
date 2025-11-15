@@ -1,0 +1,6 @@
+ID_Activo,Nombre_Dispositivo,Tipo,Responsable,Ubicacion,Datos_Almacenados,Clasificacion
+ACT-001,Laptop-Finanzas-Dell,Laptop,C. Martínez (Contador),Oficina,Facturas, Estados de Cuenta,Datos Patrimoniales (Alto)
+ACT-002,Srv-Principal-HP,Servidor,IT Admin,Site,Base de Datos Clientes SQL,Confidencial (Alto)
+ACT-003,Movil-Ventas-01,Smartphone,J. Pérez (Ventas),Remoto,Contactos Clientes (WhatsApp),Datos Personales (Medio)
+ACT-004,PC-Recepcion,Desktop,A. López (Recepción),Lobby,Bitácora de visitas,Público (Bajo)
+ACT-005,Router-Principal,Red,IT Admin,Site,Logs de tráfico,Interno (Medio)

@@ -1,0 +1,14 @@
+# Diagrama de Flujo: Respuesta a Ransomware
+
+```mermaid
+graph TD
+    A[Inicio: Usuario reporta PC lenta/archivos raros] --> B{¿Es Ransomware?}
+    B -- No --> C[Revisar Antivirus y limpiar]
+    B -- Si --> D[¡ALERTA ROJA!]
+    D --> E[Desconectar Red/WiFi Inmediatamente]
+    E --> F[Aislar equipo de la red]
+    F --> G[¿Hay Respaldo Limpio?]
+    G -- Si --> H[Formatear equipo y Restaurar Backup]
+    G -- No --> I[Evaluar pago (No recomendado) / Pérdida de datos]
+    H --> J[Cambiar contraseñas]
+    J --> K[Reporte de Incidente y Lecciones Aprendidas]
